@@ -1,13 +1,16 @@
-# 2048
-A small clone of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone).
+# Renewal 2048
+인천대학교 컴퓨터공학부 캡스톤 디자인 프로젝트
 
-Made just for fun. [Play it here!](http://gopherclass.github.io/2048/)
+<img src="Poster.jpg"/>
 
-### Screenshot
+총 네 가지의 알고리즘이 구현되어 있습니다. 자세한 구현 사항, 점수 기록 및 학습된 체크포인트는 [`/train`](https://github.com/nonzerofloat/2048/tree/master/train) 디렉토리를 참고하시기 바랍니다.
+- Monte Carlo Search
+- Expectimax Tree Search
+- (RL) TD(0)-Prediction with N-Tuple Network
+- (SL) Supervised learning with CNN
 
-<p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/1175750/8614312/280e5dc2-26f1-11e5-9f1f-5891c3ca8b26.png" alt="Screenshot"/>
-</p>
+---
 
-## License
-2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
+
+
+Based on [Gabriele Cirulli's "2048"](https://github.com/gabrielecirulli/2048)
